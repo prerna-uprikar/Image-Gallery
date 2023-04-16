@@ -1,0 +1,20 @@
+.HeaderWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 15px 30px
+}
+.navList{
+    display: flex;
+    list-style: none;
+}
+.Header{
+    color: grey;
+}
+.navMenu{
+    padding-left: 30px;
+}
+.imageContainer{
+    display: flex;
+}

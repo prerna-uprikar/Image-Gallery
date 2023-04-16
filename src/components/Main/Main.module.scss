@@ -1,0 +1,357 @@
+.bg {
+  background-image: url("//images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/0890838e72745092aab92f97/edfmin1.jpg");
+  background-size: "cover";
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgHeading {
+  color: white;
+  font-size: 30px;
+  padding-top: 10px;
+  font-weight: 100;
+  margin-top: 10%;
+}
+.bgText {
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+.bgPara {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.bgButton {
+  padding: 15px 40px;
+  border-radius: 20px;
+  outline: 0;
+  border: none;
+}
+.imageMan {
+  height: 760px;
+}
+
+.bg2 {
+  background-color: #23445b;
+  display: flex;
+  height: 620px;
+  padding: 150px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.whatWeDo {
+  color: white;
+  width: 50%;
+}
+.whatWeDoHeading {
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: 15%;
+}
+.whatWeDoHeading {
+  font-size: 30px;
+}
+
+.whatWeDoHeadingPara {
+  margin-top: 5%;
+}
+.educationSec {
+  color: white;
+}
+.educationHeading {
+  font-size: 60px;
+  text-align: center;
+  color: #23445b;
+  margin-top: 30px;
+}
+.educationPara {
+  text-align: center;
+  color: #23445b;
+}
+.educationCardContainer {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 40px auto;
+}
+.educationCard {
+  background-color: #e0e5eb;
+  padding: 15px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.educationCardHeading {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+.educationCardText {
+  margin: 15px 0;
+}
+.educationCardButton {
+  border-bottom: 1px solid gray;
+  width: 140px;
+}
+.numberContainer {
+  text-align: center;
+}
+.educationCardNo {
+  background-color: #25797c;;
+  border-radius: 50px;
+  padding: 25px;
+  display: inline-block;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.myTeamContainer {
+  color: #ffffff;
+  background-color: #23445b;
+  text-align: center;
+  padding: 30px;
+}
+.myTeamContainerHeading {
+  font-size: 70px;
+  padding-bottom: 20px;
+  font-weight: 800;
+}
+.imageTextPara {
+  font-size: 50px;
+}
+.freePick {
+  text-decoration: underline;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.myTeamcardImage {
+  width: 186px;
+  height: 186px;
+  border-radius: 90px;
+}
+
+.myTeamCard {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  padding: 20px 16px;
+  border-radius: 15px;
+}
+
+.position {
+  color: #b3b3b3 !important;
+}
+
+.name {
+  color: #25797c !important;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.data {
+  color: grey;
+}
+
+.myTeamCardSec {
+  display: flex;
+  margin: 30px auto;
+  justify-content: space-around;
+}
+
+.myTeamCardCont {
+  margin: 0 auto;
+}
+.workingSec {
+  background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/6d698987cd165fc9b92041ed/new.png");
+  padding: 80px 0;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.workingHeading {
+  font-size: 50px;
+}
+.workingPara {
+  font-size: 25px;
+  margin: 20px;
+}
+.workingButton {
+  padding: 20px 70px;
+  border-radius: 10px;
+  position: relative;
+  top: 164px;
+}
+.spaceSec {
+  background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/69f692fba32652d283a62eee/vccvv-min.jpg");
+  padding: 80px 0;
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.spaceHeading {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+.spacePara {
+  font-size: 20px;
+  padding: 15px;
+}
+.spaceButton {
+  background-color: white;
+  padding: 20px 70px;
+  border-radius: 18px;
+  position: relative;
+  top: 60px;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid;
+  &:hover{
+    color: #25797c !important;
+    background-color: #edfbfb;
+    border: 2px solid #25797c;
+  }
+}
+.educationImage {
+  text-align: center;
+  border-radius: 20px;
+}
+.educationPara {
+  font-size: 20px;
+  padding: 30px;
+}
+.educationImage {
+  background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/44d412821e5c53e4a61869ec/24974f46-7b66-12b8-3abf-c6083e0a2c1f.jpg");
+  border-radius: 15px;
+  height: 512px;
+  width: 1100px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.education2CardCont{
+  display: flex;
+  margin: 30px auto;
+  justify-content: space-evenly;
+  width: 75%;
+  position: relative;
+  top: -80px;
+}
+.education2Para{
+  text-align: center;
+  color:#25797c ;
+  font-size: 70px;
+  font-weight: bold;
+}
+.education2Heading{
+  text-align: center;
+  color:#25797c ;
+}
+
+.educationCardCont {
+  background-color: #e0e5eb;
+  padding: 15px;
+  height: 215px;
+  width: 200px;
+  border-radius: 20px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.educationEnd{
+  text-align: center;
+  margin-top: 20px;
+}
+.footer{
+  display: flex;
+  margin: 30px auto;
+  justify-content: space-evenly;
+  width: 75%;
+  
+}
+.footerHeading{
+  font-weight: 200;
+}
+.footerPara{
+  font-size: 17px;
+  color: gray;
+  padding: 15px;
+}
+.footerButton{
+  padding: 20px 80px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  background-color:#25797c ;
+  border: none;
+  color: white;
+}
+.belowFooterButton{
+  background-color: #333333;
+  height: 250px;
+}
+.belowFooterButtonText{
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+.belowFooterButtonText2{
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+
+.freeTemplate{
+  color: #b9eef0;
+  text-decoration: underline;
+  margin: 0px 5px;
+  cursor: pointer;
+   &:hover{
+    color: grey;
+   }
+}
+
+.cocahingCenetrCont{
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate;
+}
+
+.imageContainer{
+  position: relative;
+  animation: mySecond 5s 2;
+  animation-direction: alternate;
+}
+
+@keyframes myfirst {
+  0%   { left: -1000px;}
+  25%  { left: 0;}
+}
+
+@keyframes mySecond {
+  0%   { bottom: -1000px;}
+  25%  { bottom: 0;}
+}
